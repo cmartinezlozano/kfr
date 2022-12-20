@@ -140,6 +140,7 @@ else ()
 endif ()
 
 if (ANDROID)
+    set(STD_LIB c++_static)
     set(PTHREAD_LIB)
 else ()
     set(PTHREAD_LIB pthread)
